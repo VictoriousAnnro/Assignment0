@@ -28,4 +28,30 @@ public class LeapTests
         result.Should().Be(false);
     }
 
+    [Fact]
+    public void Leap_given_200_returns_false()
+    {
+        // Arrange
+        var program = new LeapYear();
+
+         // Act
+        var result = program.isLeapYear(200);
+
+        // Assert
+        result.Should().Be(false);
+    }
+
+        [Fact]
+    public void Leap_given_400_returns_true()
+    {
+        // Arrange
+        var program = new LeapYear();
+
+         // Act
+        var result = program.isLeapYear(400);
+
+        // Assert
+        result.Should().Be(true);
+    }
+
 }
