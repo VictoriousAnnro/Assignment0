@@ -10,7 +10,7 @@ public class UnitTest1
         Console.SetOut(writer);
 
          // Act
-        var program = Assembly.Load(nameof(HelloWorld));
+        var program = Assembly.Load(nameof(src));
         program.EntryPoint?.Invoke(null, new[] { Array.Empty<string>() });
 
         // Assert
