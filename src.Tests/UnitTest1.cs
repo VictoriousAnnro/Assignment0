@@ -15,6 +15,6 @@ public class UnitTest1
 
         // Assert
         var output = writer.GetStringBuilder().ToString().TrimEnd();
-        output.Should().Be("Hello, World!");
+        output.Should().Be("Hello, World!!");
     }
 }
