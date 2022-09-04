@@ -1,6 +1,5 @@
 namespace src;
 
-
 public class LeapYear{
 
     public bool isLeapYear(int year){
