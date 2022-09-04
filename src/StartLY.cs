@@ -14,7 +14,7 @@ public class StartLY{
                 } else Console.WriteLine("nay");
         } else {
             //yearInput = 0;
-            Console.WriteLine("error");
+            Console.WriteLine("Please enter a valid integer");
         }
         
     }
